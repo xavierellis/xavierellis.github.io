@@ -1,0 +1,172 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: text-top;
+}
+
+.scores-wrapper .score .form-control {
+    display: inline-block;
+    width: auto;
+}
+
+.round-wrapper label {
+    display: block;
+    width: 100%;
+}
+
+.round-wrapper .form-control {
+    display: inline-block;
+    width: 65%;
+}
+
+/* tie break */
+.tie-break {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+/* current-round */
+
+.current-round {
+    border-bottom: 1px solid #303030;
+    margin-bottom: 1em;
+}
+
+.current-round p {
+    font-size: 1.75em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.current-round p:not(:first-of-type) {
+    border-top: 1px solid #A0A0A0;
+}
+
+/* players-wrapper */
+
+.players-wrapper .player {
+    font-size: 2.5em;
+}
+
+/* Card */
+
+.card {
+    /* border: 1px solid #000000; */
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.card.card-size-large {
+    height: 400px;
+    width: 300px;
+    font-size: 200px;
+    line-height: 200px;
+}
+
+.card.card-size-small {
+    height: 140px;
+    width: 105px;
+    font-size: 70px;
+    line-height: 70px;
+}
+
+/* suit */
+
+.suit-S,
+.suit-C,
+.suit-N {
+    color: #000000;
+}
+
+.suit-D,
+.suit-H {
+    color: #FC0000;
+}
+
+/* Bidding */
+
+.underbid {
+  color: #f0ad4e;
+}
+
+.accurate-bid {
+  color: #5cb85c;
+}
+
+.overbid {
+  color: #c9302c;
+}
+
+/* Font */
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-small {
+  font-size: 0.5em;
+}
+
+.largest-text {
+  font-size: 5em !important;
+}
+
+h3 {
+  color: #828282;
+}
+
+/* Dark */
+
+body.dark {
+    background: #262626;
+    color: #A0A0A0;
+}
+
+body.dark .form-control {
+    background-color: #606060;
+    color: #F0F0F0;
+}
+
+body.dark .card {
+    background-color: #262626;
+    border-color: #A0A0A0;
+}
+
+body.dark .suit-S,
+body.dark .suit-C,
+body.dark .suit-N {
+    color: #A0A0A0;
+}
+
+/* Settings */
+
+.settings-wrapper {
+  padding-bottom: 1em;
+}
+
+.topNav {
+	margin-bottom:20px;
+}
+
+.app {
+    margin-bottom: 20px;
+}
+
+/* Tables */
+[st-sort] {
+    cursor: pointer;
+}
+.st-sort-ascent:after {
+    content: '\25B2';
+}
+
+.st-sort-descent:after {
+    content: '\25BC';
+}
